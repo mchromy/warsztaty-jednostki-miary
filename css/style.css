@@ -1,0 +1,35 @@
+html {
+/*    ustawiamy wielkosc rem */
+    font-size: 20px;
+}
+#container {
+    font-size: 30px;
+}
+
+#container > div {
+    background-color: rgba(0, 255, 255, 0.6);
+    margin-bottom: 15px;
+}
+#pixele {
+    width: 400px;
+}
+#em {
+/*    wielkosc czionki elementu 20em * 30px */
+    width: 20em;
+}
+#ex {
+/*    Wartość 1ex jest obliczana przez przeglądarkę internetową na podstawie wysokości
+małych liter (liter bez wydłużeń czyli a, c, i, z itp.) danej czcionki elementu rodzica,
+przeważnie jest to wartość w granicy 51% ~ 52% całej wartości wielkości czcionki.*/
+    width: 20ex;
+}
+#rem {
+    width: 20rem;
+}
+#procenty {
+    width: 50%;
+    font-size: 50%;     /*     wielkosc 50%z tego co ma*/
+}
+#vw {
+    width: 60vw;
+}
